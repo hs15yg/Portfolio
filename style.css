@@ -108,7 +108,15 @@ section {
     box-shadow: 0 0 10px #860f6d
 
 }
-    
+
+.btn:hover {
+  /* Movemos el botón un poco hacia arriba para dar efecto de profundidad */
+  transform: translateY(-3px); 
+  
+  /* Sombra de luz: 0px X, 10px Y, 25px de difuminado */
+  box-shadow: 0 10px 25px rgba(98, 0, 238, 0.6); 
+}
+
 /* Projects section */
 #projects {
     background-color: #f9f9f9;
