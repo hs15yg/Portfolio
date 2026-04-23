@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="in">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
@@ -15,6 +15,7 @@
         <a href="#home">home</a>
         <a href="#about">About Me</a>
         <a href="#skills">Skills</a>
+        <a href="mascotas.html">pets</a>
         <a href="#contact">Contact</a>
         <a href="#projects">projects</a>
     </nav>
@@ -51,6 +52,8 @@
             </ul>
         </div>
     </section>
+
+
     <!-- Projects -->
 <section id="projects">
     <div class="card">
@@ -73,12 +76,28 @@
 </section>
 
     <!-- Contact -->
-    <section id="contact">
-        <div class="card">
-            <h2>Contact</h2>
-            <a href="https://github.com/hs15yg" target="_blank" class="btn">My GitHub</a>
-        </div>
-    </section>
+    <!-- Contact -->
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Write your message" required></textarea><br><br>
+
+            <button type="submit" class="btn">Send</button>
+        </form>
+
+        <br>
+        <a href="https://github.com/hs15yg" target="_blank" class="btn">My GitHub</a>
+    </div>
+</section>
 
     <footer>
     <p>© 2026 Hillary - All rights reserved</p>
