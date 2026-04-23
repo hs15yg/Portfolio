@@ -190,9 +190,9 @@ section {
     background-color: #555;
 }
 
-/* HOVER GENERAL (para cumplir la tarea) */
+/* HOVER GENERAL  */
 a:hover {
-    color: #ff6600;
+    color: #792887;
 }
 
 /* PETS PAGE */
@@ -217,7 +217,7 @@ a:hover {
     border-radius: 10px;
 }
 
-/* SOMBRA (extra que pide la tarea) */
+/* SOMBRA  */
 .pet-card img {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
